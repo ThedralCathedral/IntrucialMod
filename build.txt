@@ -1,0 +1,4 @@
+author = Rokutis
+version = 0.3.2
+displayName = Intrucial
+homepage = https://discord.gg/J5GTe4v

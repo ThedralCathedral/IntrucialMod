@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8298EAB6-0586-4BDA-9483-83624B66B13A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Intrucial</RootNamespace>
+    <AssemblyName>Intrucial</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Intrucial.cs" />
+    <Compile Include="IntrucialPlayer.cs" />
+    <Compile Include="IntrucialWorld.cs" />
+    <Compile Include="Items\Accesory\CompressedStar.cs" />
+    <Compile Include="Items\Armor\MaglyneBreastplate.cs" />
+    <Compile Include="Items\Armor\MaglyneHelmet.cs" />
+    <Compile Include="Items\Armor\MaglyneLeggings.cs" />
+    <Compile Include="Items\ScrollOfEternalCrafting.cs" />
+    <Compile Include="Items\FallenStarIngot.cs" />
+    <Compile Include="Items\MaglyneBar.cs" />
+    <Compile Include="Items\MaglyneOre.cs" />
+    <Compile Include="Items\Mining\FallenStarPickaxe.cs" />
+    <Compile Include="Items\Mining\MaglyneAxe.cs" />
+    <Compile Include="Items\Mining\MaglyneHammer.cs" />
+    <Compile Include="Items\Mining\MaglynePickaxe.cs" />
+    <Compile Include="Items\Mining\MaglynePickaxe_Axe.cs" />
+    <Compile Include="Items\Placeables\ManaInfuser.cs" />
+    <Compile Include="Items\TelainumBar.cs" />
+    <Compile Include="Items\TelainumOre.cs" />
+    <Compile Include="Items\Weapons\TelainumRevolver.cs" />
+    <Compile Include="Items\Weapons\FallenStarBow.cs" />
+    <Compile Include="Items\Weapons\MaglyneRevolver.cs" />
+    <Compile Include="Items\Weapons\MaglyneSword.cs" />
+    <Compile Include="Items\Weapons\ManaSickle.cs" />
+    <Compile Include="Items\Weapons\TelainumBlade.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Projectiles\BetterLuminiteBullets.cs" />
+    <Compile Include="Projectiles\ManaSickleProj.cs" />
+    <Compile Include="Projectiles\ShootingStar.cs" />
+    <Compile Include="Projectiles\SwordBeam.cs" />
+    <Compile Include="Recipes\IntrucialRecipe.cs" />
+    <Compile Include="Tiles\MaglyneOreTile.cs" />
+    <Compile Include="Tiles\ManaInfuser.cs" />
+    <Compile Include="Tiles\TelainumOreTile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Game\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Graphics\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Xact\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Terraria">
+      <HintPath>D:\SteamLibrary\steamapps\common\Terraria\Terraria.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="NPCs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Intrucial.dll" />
+    <Content Include="bin\Debug\Intrucial.pdb" />
+    <Content Include="bin\Debug\Microsoft.Xna.Framework.dll" />
+    <Content Include="bin\Debug\Microsoft.Xna.Framework.Game.dll" />
+    <Content Include="bin\Debug\Microsoft.Xna.Framework.Graphics.dll" />
+    <Content Include="bin\Debug\Microsoft.Xna.Framework.Xact.dll" />
+    <Content Include="bin\Debug\Terraria.exe" />
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+    <Content Include="Items\Accesory\CompressedStar.png" />
+    <Content Include="Items\Armor\MaglyneBreastplate.png" />
+    <Content Include="Items\Armor\MaglyneBreastplate_Arms.png" />
+    <Content Include="Items\Armor\MaglyneBreastplate_Body.png" />
+    <Content Include="Items\Armor\MaglyneBreastplate_Female.png" />
+    <Content Include="Items\Armor\MaglyneHelmet.png" />
+    <Content Include="Items\Armor\MaglyneHelmet_Head.png" />
+    <Content Include="Items\Armor\MaglyneLeggings.png" />
+    <Content Include="Items\Armor\MaglyneLeggings_Legs.png" />
+    <Content Include="Items\FallenStarIngot.png" />
+    <Content Include="Items\MaglyneBar.png" />
+    <Content Include="Items\MaglyneOre.png" />
+    <Content Include="Items\Mining\FallenStarPickaxe.png" />
+    <Content Include="Items\Mining\MaglyneAxe.png" />
+    <Content Include="Items\Mining\MaglyneHammer.png" />
+    <Content Include="Items\Mining\MaglynePickaxe.png" />
+    <Content Include="Items\Mining\MaglynePickaxe_Axe.png" />
+    <Content Include="Items\Placeables\ManaInfuser.png" />
+    <Content Include="Items\ScrollOfEternalCrafting.png" />
+    <Content Include="Items\TelainumBar.png" />
+    <Content Include="Items\TelainumOre.png" />
+    <Content Include="Items\Weapons\FallenStarBow.png" />
+    <Content Include="Items\Weapons\MaglyneRevolver.png" />
+    <Content Include="Items\Weapons\MaglyneSword.png" />
+    <Content Include="Items\Weapons\ManaSickle.png" />
+    <Content Include="Items\Weapons\TelainumBlade.png" />
+    <Content Include="Projectiles\ManaSickleProj.png" />
+    <Content Include="Projectiles\SwordBeam.png" />
+    <Content Include="Tiles\MaglyneOreTile.png" />
+    <Content Include="Tiles\ManaInfuser.png" />
+    <Content Include="Tiles\TelainumOreTile.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Program Files (x86)\Steam\steamapps\common\terraria\tModLoaderServer.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

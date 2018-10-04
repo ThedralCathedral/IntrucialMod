@@ -1,0 +1,12 @@
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\obj\Debug\Intrucial.csprojAssemblyReference.cache
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\obj\Debug\Intrucial.csproj.CoreCompileInputs.cache
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Intrucial.dll
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Intrucial.pdb
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\bin\Debug\Terraria.exe
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\obj\Debug\Intrucial.csproj.CopyComplete
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\obj\Debug\Intrucial.dll
+C:\Users\rokis\Documents\My Games\Terraria\ModLoader\Mod Sources\Intrucial\obj\Debug\Intrucial.pdb

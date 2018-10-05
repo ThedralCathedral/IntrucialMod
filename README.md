@@ -2,7 +2,7 @@ Intrucial Mod!!!
 
 Lead Developers: Rokutis ; Mr.Steve_98
 
-Spriters: Brandon™
+Spriters: Brandon™ ; Empsy
 
 
 Version 0.3.2:

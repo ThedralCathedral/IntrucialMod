@@ -40,6 +40,8 @@
     <Compile Include="Items\Armor\MaglyneBreastplate.cs" />
     <Compile Include="Items\Armor\MaglyneHelmet.cs" />
     <Compile Include="Items\Armor\MaglyneLeggings.cs" />
+    <Compile Include="Items\Mining\TelainumPickaxe.cs" />
+    <Compile Include="Items\Placeables\TelainumFurnace.cs" />
     <Compile Include="Items\ScrollOfEternalCrafting.cs" />
     <Compile Include="Items\FallenStarIngot.cs" />
     <Compile Include="Items\MaglyneBar.cs" />
@@ -52,6 +54,7 @@
     <Compile Include="Items\Placeables\ManaInfuser.cs" />
     <Compile Include="Items\TelainumBar.cs" />
     <Compile Include="Items\TelainumOre.cs" />
+    <Compile Include="Items\Weapons\TelainumBow.cs" />
     <Compile Include="Items\Weapons\TelainumRevolver.cs" />
     <Compile Include="Items\Weapons\FallenStarBow.cs" />
     <Compile Include="Items\Weapons\MaglyneRevolver.cs" />
@@ -66,6 +69,7 @@
     <Compile Include="Projectiles\ShootingStar.cs" />
     <Compile Include="Projectiles\SwordBeam.cs" />
     <Compile Include="Recipes\IntrucialRecipe.cs" />
+    <Compile Include="Tiles\TelainumFurnaceTile.cs" />
     <Compile Include="Tiles\MaglyneOreTile.cs" />
     <Compile Include="Tiles\ManaInfuser.cs" />
     <Compile Include="Tiles\TelainumOreTile.cs" />
@@ -124,19 +128,25 @@
     <Content Include="Items\Mining\MaglyneHammer.png" />
     <Content Include="Items\Mining\MaglynePickaxe.png" />
     <Content Include="Items\Mining\MaglynePickaxe_Axe.png" />
+    <Content Include="Items\Mining\TelainumPickaxe.png" />
     <Content Include="Items\Placeables\ManaInfuser.png" />
+    <Content Include="Items\Placeables\TelainumFurnace.png" />
     <Content Include="Items\ScrollOfEternalCrafting.png" />
     <Content Include="Items\TelainumBar.png" />
     <Content Include="Items\TelainumOre.png" />
     <Content Include="Items\Weapons\FallenStarBow.png" />
+    <Content Include="Items\Weapons\MaglynePickaxe.png" />
     <Content Include="Items\Weapons\MaglyneRevolver.png" />
     <Content Include="Items\Weapons\MaglyneSword.png" />
     <Content Include="Items\Weapons\ManaSickle.png" />
     <Content Include="Items\Weapons\TelainumBlade.png" />
+    <Content Include="Items\Weapons\TelainumBow.png" />
+    <Content Include="Items\Weapons\TelainumRevolver.png" />
     <Content Include="Projectiles\ManaSickleProj.png" />
     <Content Include="Projectiles\SwordBeam.png" />
     <Content Include="Tiles\MaglyneOreTile.png" />
     <Content Include="Tiles\ManaInfuser.png" />
+    <Content Include="Tiles\TelainumFurnaceTile.png" />
     <Content Include="Tiles\TelainumOreTile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,7 +2,7 @@ Intrucial Mod!!!
 
 Lead Developers: Rokutis ; Mr.Steve_98
 
-Spriters: Brandon™ ; Empsy
+Spriters: Brandon™ ; Empsy ItsMePXL
 
 
 Version 0.3.2:

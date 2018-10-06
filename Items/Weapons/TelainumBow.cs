@@ -19,8 +19,8 @@ namespace Intrucial.Items.Weapons
             item.ranged = true;
             item.width = 48;
             item.height = 48;
-            item.useTime = 10;
-            item.useAnimation = 10;
+            item.useTime = 15;
+            item.useAnimation = 15;
             item.useStyle = 5;
             item.noMelee = true;
             item.knockBack = 7f;
@@ -28,8 +28,10 @@ namespace Intrucial.Items.Weapons
             item.rare = 11;
             item.UseSound = SoundID.Item5;
             item.autoReuse = true;
-            item.shootSpeed = 10f;
+            item.shootSpeed = 16f;
             item.useAmmo = AmmoID.Arrow;
+            item.shoot = ProjectileID.MoonlordArrow;
+            
         }
 
         public override void AddRecipes()

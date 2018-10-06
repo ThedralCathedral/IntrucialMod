@@ -18,8 +18,8 @@ namespace Intrucial.Items.Mining
             item.melee = true;
             item.width = 48;
             item.height = 48;
-            item.useTime = 1;
-            item.useAnimation = 1;
+            item.useTime = 5;
+            item.useAnimation = 5;
             item.pick = 300;
             item.useStyle = 1;
             item.knockBack = 7;
